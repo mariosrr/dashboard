@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\chart",
+    "\\src\\components\\featuredInfo",
+    "\\src\\components\\powerbi",
+    "\\src\\components\\sidebar",
+    "\\src\\components\\topbar",
+    "\\src\\pages",
+    "\\src\\pages\\home"
+  ],
+  "SelectedNode": "\\src\\components\\chart\\chart.css",
+  "PreviewInSolutionExplorer": false
+}
