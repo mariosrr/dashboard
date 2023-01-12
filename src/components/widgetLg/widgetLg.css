@@ -3,6 +3,7 @@
     -webkit-box-shadow: 5px 5px 7px -2px rgba(0,0,0,0.48);
     box-shadow: 5px 5px 7px -2px rgba(0,0,0,0.48);
     padding: 20px;
+    border-collapse: collapse;
 }
 
 .widgetLgTitle{
@@ -12,12 +13,17 @@
 
 .widgetLgTable{
     width: 100%;
-    border-spacing: 20px;
+    border-spacing: 15px;
+    
+}
 
+.widgetLgTr{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .widgetLgTh{
-    text-align: left;
+    text-align: center;
 }
 
 .widgetLgUser{
@@ -34,8 +40,25 @@
     margin-right: 10px;
 }
 
-.widgetLgDate,.widgetLgAmount{
+.widgetLgDate,.widgetLgAmount, .widgetLgName, .widgetLgStatus{
     font-weight: 300;
+    text-align: center;
+}
+
+.widgetLgPedimento{
+    font-weight: 300;
+    text-align: center;
+}   
+
+.widgetLguser{
+    font-weight: 300;
+    text-align: center;
+}   
+
+.widgetLgAction{
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 .widgetLgButton{
@@ -49,6 +72,50 @@
     color: darkgreen;
 }
 
+.widgetLgButton.CrossedRed{
+    background-color: lightgreen;
+    color: red;
+}
+.widgetLgButton.Crossed{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+
+.widgetLgButton.Released{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.widgetLgButton.Transfer{
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
+    animation: blink-animation 2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 2s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+}
+
+.widgetLgButton.Documenting{
+    background-color: lightpink;
+    color: darkorchid;
+}
+
+.widgetLgButton.Inbound{
+    background-color: lightskyblue;
+    color: darkblue;
+}
+
+
 .widgetLgButton.Declined{
     background-color: lightyellow;
     color: darkorange;
@@ -58,3 +125,19 @@
     background-color: lightskyblue;
     color: darkblue
 }
+
+.widgetSmButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+}
+
+.widgetSmIcon{
+    font-size: 16px;
+    margin-right: 5px;
+}
+

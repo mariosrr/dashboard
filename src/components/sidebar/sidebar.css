@@ -1,9 +1,18 @@
 .sidebar {
-    flex: 1;
+    flex: none;
     height: calc(100vh - 10px);
-    background-color: #000182;
+    background-color: #000277;
     position: sticky;
-    top: 50px;
+    z-index: 1;
+    top: 100px;
+    width: 250px;
+}
+
+a:link, a:visited {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: white;
 }
 
 .sidebarWrapper{
@@ -18,11 +27,16 @@
 .sidebarTitle{
     font-size: 12px;
     color: white;
+    
 }
 
 .sidebarList{
     list-style: none;
     padding: 5px;
+}
+
+.sidebarSection{
+    padding-bottom: 15px;
 }
 
 .sidebarListItem{

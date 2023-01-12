@@ -12,7 +12,9 @@ export default function Home() {
             <FeaturedInfo />
             <Chart title="Customs Analytic" data={userData}  dataKey="name" grid/>
             <div className="homeWidgets">         
-               <WidgetSm />
+               {
+               //<WidgetSm />
+               }
                 <WidgetLg />
             </div>
             

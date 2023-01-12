@@ -1,0 +1,44 @@
+.titleContent{
+    margin-bottom: 20px;
+}
+
+.moduleContainer{
+    flex: 2;
+    padding: 10px;
+}
+
+.areaForm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.formInput{
+    width: 40%;
+}
+
+.formInput input{
+    width: 100%;
+    
+
+}
+
+.formInput select{
+    width: 100%;
+    
+ 
+}
+
+.formErrorMessage{
+    color: red;
+}
+
+
+.breadCrumb a:link { color:rgb(104, 104, 255); text-decoration:none; font-weight:normal; }
+.breadCrumb a:visited { color: rgb(104, 104, 255); text-decoration:none; font-weight:normal; }
+.breadCrumb a:hover { color: rgb(104, 104, 255); text-decoration:underline; font-weight:normal; }
+.breadCrumb a:active { color: rgb(104, 104, 255); text-decoration:none; font-weight:normal; }
+
+
+

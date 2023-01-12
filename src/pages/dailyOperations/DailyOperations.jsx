@@ -29,7 +29,8 @@ export default function DailyOperations() {
   useEffect(() =>{
     const getEntries = async () => {
     try{
-      const res = await axios.get("http://localhost:3300/entries?customer=" + user.customer);
+      //const res = await axios.get("http://localhost:3300/entries?customer=" + user.customer);
+      const res = await axios.get("https://wisdomback.herokuapp.com/entries");
       console.log(res.data);
       setData(res.data);
       setIsLoaded(true);

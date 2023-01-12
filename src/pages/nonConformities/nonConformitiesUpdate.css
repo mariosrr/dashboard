@@ -1,0 +1,39 @@
+.titleContent{
+    margin-bottom: 20px;
+}
+
+.moduleContainer{
+    flex: 2;
+    padding: 10px;
+}
+
+.areaForm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.formInput{
+    width: 40%;
+}
+
+.formInput input{
+    width: 100%;
+    
+
+}
+
+.formInput select{
+    width: 100%;
+    
+ 
+}
+
+.formErrorMessage{
+    color: red;
+}
+
+
+
+

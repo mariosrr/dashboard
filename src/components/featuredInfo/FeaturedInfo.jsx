@@ -17,7 +17,7 @@ export default function FeaturedInfo() {
                 <span className="featuredSub">Compare to Last Month</span>
             </div>
             <div className="featuredItem">
-                <span className="featuredTitle">Pedimento Number</span>
+                <span className="featuredTitle">Paid IGI</span>
                 <div className="featuredMoneyContainer">
                     <span className="featuredMoney">$2,450.00</span>
                     <span className="featuredMoneyRate">

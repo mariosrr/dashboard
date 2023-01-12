@@ -1,6 +1,6 @@
 .topbar {
     width: 100%;
-    height: 50px;
+    height: 90px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -22,8 +22,8 @@
 }
 
 .logoImg {
-    height: 20%;
-    width: 20%;
+    height: 50px; 
+    width: 160px;
     padding: 1px;
     cursor: pointer;
     z-index: -5;

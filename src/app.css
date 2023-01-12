@@ -2,3 +2,8 @@
     display: flex;
 }
 
+.content{
+    flex: 4;
+    display: flex;
+  }
+

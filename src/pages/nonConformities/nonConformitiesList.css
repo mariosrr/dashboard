@@ -1,0 +1,53 @@
+.nonConformityList{
+    flex: 3;
+    
+}
+
+.nonConformityTitle{
+    padding-bottom: 30px;
+    margin-left: 5px;
+}
+
+.breadCrumb{
+    padding-bottom: 15px;
+}
+
+.nonConformityEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: lightskyblue;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nonConformityStatus{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: lightgreen;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nonConformityDelete{
+    color: rgb(77, 148, 255);
+    cursor: pointer;
+}
+
+.rowOrange{
+    background-color: lightsalmon;
+}
+
+.rowGreen{
+    background-color: lightgreen;
+}
+
+.iconContent {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px !important;
+    color: white;
+    background-color: #3879ff;
+    border-radius: 20%;
+}
